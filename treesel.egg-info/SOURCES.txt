@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+treesel.py
+treesel.egg-info/PKG-INFO
+treesel.egg-info/SOURCES.txt
+treesel.egg-info/dependency_links.txt
+treesel.egg-info/entry_points.txt
+treesel.egg-info/top_level.txt

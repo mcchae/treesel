@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: treesel
+Version: 0.1.1
+Summary: Small python program select tree and change it using curses standard library 
+Home-page: https://github.com/mcchae/treesel
+Author: mcchae
+Author-email: mcchae@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: tree,curses,utility,change,directory
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
