@@ -1,6 +1,10 @@
 # treesel
 Small python program select tree (and change) it using curses standard library.
 
+## Working OS
+ * Linux Terminal
+ * Mac Terminal
+ 
 ## Screen shot
 
 ![treesel](treesel.png)
