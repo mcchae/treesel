@@ -34,7 +34,13 @@ For example,
 ``` sh
 $ treesel -s
 ```
-
+### Operations
+ * UP, DOWN - navigation between directories
+ * RIGHT - expand sub-directories
+ * LEFT - unexpand
+ * ENTER - select the directory
+ * ESC - cancel treesel
+ 
 ## How to change directory
 
 ``` sh
