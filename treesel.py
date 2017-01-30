@@ -10,7 +10,7 @@ import getopt
 from curses import wrapper
 
 ################################################################################
-__version__='0.1.1'
+__version__='0.1.5'
 ESC = 27
 result = ''
 start = '.'
@@ -217,11 +217,11 @@ def main():
             sys.exit(9)
         saved_fds = open_tty()
         wrapper(c_main)
+        restore_stdio(*saved_fds)
         print(result)
     except Exception as e:
-        usage(str(e))
-    finally:
         restore_stdio(*saved_fds)
+        usage(str(e))
 
 
 ################################################################################
